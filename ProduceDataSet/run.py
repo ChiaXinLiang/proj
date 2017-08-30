@@ -7,6 +7,6 @@ from scipy import io
 path="Images"
 DataColorSet, DataGreySet = getDataSet(path)
 data={'Color':DataColorSet, 'Grey':DataGreySet}
-io.savemat('Data.mat',data)
+io.savemat('../MyProject/Data.mat',data)
 
 
